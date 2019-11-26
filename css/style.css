@@ -101,4 +101,23 @@
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) {
 
+    header {
+      width: 80%;
+      margin: 0 auto;
+      /* background-color: pink; */
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .row {
+      display: block;
+      padding: 0 4px;
+    }
+  
+    .column {
+      flex: 10%;
+      padding: 0;
+    }
+  
+
 }

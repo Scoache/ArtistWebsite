@@ -58,21 +58,25 @@
   .row {
     display: block;
     padding: 0 4px;
+    object-fit: cover;
   }
-
+  
   .column {
     flex: 10%;
     padding: 0;
+    object-fit: cover;
   }
 
 
   .column img {
     margin-top: 80px;
     width: 90%;
+    object-fit: cover;
   }
   
   #wrapper {
     width: 100%;
+    object-fit: cover;
   }
 
 }
